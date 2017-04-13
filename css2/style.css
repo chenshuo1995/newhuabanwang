@@ -1,0 +1,117 @@
+.login{
+	width: 520px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -155px 0 0 -260px;
+    text-align: center;
+    padding: 30px 0 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    border-radius: 4px;
+}
+.hoder{
+	width: 286px;
+    margin: 20px auto;
+    position: relative;
+}  
+.login img{
+	width: 106px;
+    height: 36px;
+    display: block;
+    margin: 0 auto;
+}
+.login .with-line{
+	font-size: 16px;
+    color: #999;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.login .with-line:before{
+	position: absolute;
+	content: "";
+    border-top: 1px solid #ccc;
+    display: block;
+    width: 50px;
+    top: 8px;
+    left: 0;
+}
+.login .with-line:after{
+	position: absolute;
+	content: "";
+    border-top: 1px solid #ccc;
+    display: block;
+    width: 50px;
+    top: 8px;
+    right: 0;
+}
+.buttons{
+	margin: 20px 0 20px -15px;
+    width: 336px;
+    text-align: center;
+}
+.buttons a.weibo{
+	display: inline-block;
+    margin-right: 15px;
+    width: 64px;
+    height: 64px;
+    background: url(../img3/login_icons_small.svg) 0 0 no-repeat;
+}
+.buttons a.weibo:hover{
+	background-position: 0 -80px;
+ }
+ .buttons a.qzon{
+	display: inline-block;
+    margin-right: 15px;
+    width: 64px;
+    height: 64px;
+    background: url(../img3/login_icons_small.svg) -80px 0 no-repeat;
+}
+.buttons a.qzon:hover{
+	background-position: -80px -80px;
+ }
+ .buttons a.wechat{
+	display: inline-block;
+    margin-right: 15px;
+    width: 64px;
+    height: 64px;
+    background: url(../img3/login_icons_small.svg) -320px 0 no-repeat;
+}
+.buttons a.wechat:hover{
+	background-position: -320px -80px;
+ }
+ .buttons a.douban{
+	display: inline-block;
+    margin-right: 15px;
+    width: 64px;
+    height: 64px;
+    background: url(../img3/login_icons_small.svg) -160px 0 no-repeat;
+}
+.buttons a.douban:hover{
+	background-position: -160px -80px;
+ }
+ .hoder .mail{
+ 	font-size: 16px;
+    margin-bottom: 50px;
+    display: block;
+    color: #9E7E6B;
+    text-decoration: none;
+ }
+ .hoder .mail:hover{
+ 	color: #9A0000;
+ 	text-decoration: underline;
+ }
+.login .switch{
+	float: right;
+	margin-right: 25px;
+}
+.login .switch a{
+	font-size: 16px;
+    text-decoration: none;
+    color: #9E7E6B;
+}
+.login .switch a:hover{
+	color: #9A0000;
+ 	text-decoration: underline;
+}
