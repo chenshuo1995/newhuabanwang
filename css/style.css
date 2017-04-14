@@ -168,7 +168,7 @@
 	height: 520px;
 	position: absolute;
 	top: 20px;
-	left: 656px;
+	left: 35%;
 	width: 570px;
 }
 .new-banner .title{
@@ -233,6 +233,9 @@
     cursor: pointer;
 }
 /*大家关注*/
+.wrapper-all{
+	min-width: 1024px;
+}
 .wrapper{
 	margin-top: 80px;
 	position: relative;
@@ -508,6 +511,7 @@
 	background: #333;
     padding: 25px 0 0;
     height: 185px;
+    min-width: 1024px;
 }
 .footer-90{
 	position: relative;
